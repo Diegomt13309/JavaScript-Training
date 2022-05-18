@@ -137,7 +137,7 @@ console.log(`String
 with a new
 line`);*/
 
-//If-else statement
+/*If-else statement
 const age = 15;
 
 if (age >= 18) {
@@ -155,3 +155,107 @@ if (birthYear <= 2000) {
     century = 21;
 }
 console.log(century);
+*/
+//********************************************* */
+/*
+//Type convertion and
+const inputYear = '1991';
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number('Diego'));
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+//coercion: + triggers the coercion strings
+//same thing
+console.log('I am ' + 23 + ' years old');
+console.log('I am ' + '23' + ' years old');
+// -, triggers the opposite - Strings to number
+console.log('23' - '10' - 3);
+console.log('23' * '2');
+console.log('23' / '2');
+
+//guess the output
+let n = '1' + 1;
+n = n - 1;
+console.log(n); //10
+*/
+//************************************************ */
+/*
+//Falsy and truthy
+//5 falsy values: 0, '', undefined, null, NaN;
+//everything else, is truthy
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Diego'));
+console.log(Boolean({}));
+console.log(Boolean(''));
+
+const money = 0;
+if (money) {
+    console.log('Dont spend it all');
+} else {
+    console.log('You should get a job');
+}
+
+let height = 0;
+if (height) {
+    console.log('Yay');
+} else {
+    console.log('Undefined');
+}*/
+//************************************************ */
+//Equality operators == vs ===
+//===, does not apply type coercion, is a strict, so both should be the same: '18' === 18 false
+//== loose, does type coercion: '18'==18 true
+/*
+const age = '18';
+if (age === 18) console.log('You just became an adult! (strict)');
+
+if (age == 18) console.log('You just became an adult! (loose)');
+
+const favourite = Number(prompt("What's your favourite number?"));
+console.log(favourite);
+console.log(typeof favourite);
+
+if (favourite === 14) { // '14' == 14 typecoersion
+    console.log('Cool, 14 is an amazing number!');
+} else if (favourite === 7) {
+    console.log('7 is also a cool number!');
+} else if (favourite === 9) {
+    console.log('9 is also a cool number!');
+} else {
+    console.log('Number is not 23 or 7');
+}
+
+if (favourite !== 14) console.log('Why not 14?');*/
+//************************************************ */
+//Boolean Logic
+/*
+const hasDriversLicense = true; //A
+const hasGoodVision = true; //B
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+console.log(!hasGoodVision);
+
+// if (hasDriversLicense && hasGoodVision) {
+//     console.log('Sara is able to drive!');
+// } else {
+//     console.log('Someone else should drive!');
+// }
+
+const isTired = true; //C
+console.log(hasDriversLicense && hasGoodVision && isTired);
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+    console.log('Sara is able to drive!');
+} else {
+    console.log('Someone else should drive!');
+}*/
+
+
+
