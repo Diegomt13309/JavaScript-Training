@@ -256,6 +256,74 @@ if (hasDriversLicense && hasGoodVision && !isTired) {
 } else {
     console.log('Someone else should drive!');
 }*/
+//Switch Statement
+/*
+const day = 'thursday';
 
+switch (day) {
+    case 'monday':
+        console.log('Plan course structure.');
+        console.log('Go to coding meetup.');
+        break;
+    case 'tuesday':
+        console.log('Prepare videos');
+        break;
+    case 'wednesday':
+    case 'thursday':
+        console.log('Write code examples');
+        break;
+    case 'friday':
+        console.log('Record videos');
+        break;
+    case 'saturday':
+    case 'sunday':
+        console.log('Enjoy the weekend');
+        break;
+    default:
+        console.log('Not a valid day');
+}
+
+if (day === 'monday') {
+    console.log('Plan course structure.');
+    console.log('Go to coding meetup.');
+} else if (day === 'tuesday') {
+    console.log('Prepare videos');
+} else if (day === 'wednesday' || day === 'thursday') {
+    console.log('Write code examples');
+} else if (day === 'friday') {
+    console.log('Record videos');
+} else if (day === 'saturday' || day === 'sunday') {
+    console.log('Enjoy the weekend');
+} else {
+    console.log('Not a valid day');
+}*/
+
+//Statement and expressions
+/*expression produces a value
+3 + 4
+1997
+true && false && !false
+//Statement does not produce a value*
+if (23 > 10) {
+    const str = '23 is bigger';//expression
+}*/
+
+//Ternary operator
+const age = 25;
+// age >= 18 ? console.log('I like to drink beer🍺') : console.log('I like to drink water🧊');
+
+const drink = age >= 18 ? 'Beer🍺' : 'Water🧊';
+console.log(drink);
+
+let drink2;
+if (age >= 18) {
+    drink2 = 'Beer🍺';
+} else {
+    drink2 = 'Water🧊';
+}
+
+console.log(drink2);
+
+console.log(`I like to drink ${age >= 18 ? 'Beer🍺' : 'Water🧊'}`);
 
 
